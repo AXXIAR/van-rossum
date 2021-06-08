@@ -1,0 +1,82 @@
+button:not(.simp){
+	padding:10px 20px;
+	margin:0 5px 0 0;
+}
+
+
+h1{
+	font-family: Arial;
+	font-size: 50px;
+	text-align: center;
+}
+
+h3{
+	font-family: Arial;
+	font-size: 30px;
+	text-decoration:underline;
+}
+
+h4{
+	font-size: 15px;
+	padding-bottom: 50px;
+}
+p{
+	line-height: 200%;
+	font-family: Verdana;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+a:link, a:visited{
+	color: black;
+	font-size: 23px;
+	font-family: Consolas;
+	text-decoration:none;
+	color:#1a1aff;
+}
+a:hover{
+	text-decoration:underline;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.flex div {
+  width: 100px;
+  height: 100px;
+}
+
+.quoi{
+	display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.petit{
+	width:750px;
+	color:black;
+}
+
+.news{
+	padding: 10px 5px 0 5px;
+	box-sizing: border-box;
+	width: 45%;
+	margin: 0 20px 0 0;
+	border: solid black 3px;
+	height:950px;
+	display: table; 
+	text-align: center;
+}
+
+.simp img{
+	width: 7%;
+	border-radius: 40%;
+	float: left;
+	padding: 0 0 20px 0;
+
+}
+
