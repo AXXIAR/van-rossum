@@ -44,7 +44,7 @@ iframe{
 	text-align: center;
 }
 
-p, p.news{
+p, p.news, ul.sources{
 	line-height: 200%;
 	font-family: Verdana;
 	font-size: 20px;
