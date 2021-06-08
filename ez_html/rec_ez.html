@@ -2,24 +2,59 @@
 	<head>
 		<meta charset="utf-8"/>
 		<title>Guido van Rossum - Récompenses</title>
-		<link rel="stylesheet" href="css/style.css"/>
+<style>
+button{
+	padding:10px 20px;
+	margin:0 5px 0 0;
+}
+
+h3{
+	font-family: Arial;
+	font-size: 30px;
+	text-decoration:underline;
+}
+
+h4{
+	font-size: 15px;
+	padding-bottom: 50px;
+}
+p{
+	line-height: 200%;
+	font-family: Verdana;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+a:link, a:visited{
+	color: black;
+	font-size: 23px;
+	font-family: Consolas;
+	text-decoration:none;
+	color:#1a1aff;
+}
+a:hover{
+	text-decoration:underline;
+}
+.simp img{
+	width: 7%;
+	border-radius: 40%;
+	float: left;
+	padding: 0 0 20px 0;
+
+}</style>
 		
 	</head>
 	<body>
 	<div class="top">
-		<ul class="menu">
-			<li class="lmenu"><a href="accueil.html">Accueil</a></li>
-			<li class="lmenu"><a href="biographie.html">Biographie</a></li>
-			<li class="lmenu"><a href="recompenses.html">Récompenses</a></li>
-			<li class="lmenu"><a href="actu.html">Actualités</a></li>
-			<li class="lmenu"><a href="apropos.html">À propos</a></li>
-			
-			<br><br><br><br><a class="simp" href="ez_html/rec_ez.html"><img src="img/palette_no.png" alt="affichage simplifié"></a>
-		</ul>
-        
+		<button onclick="window.location.href = 'acc_ez.html';">Accueil</button>
+			<button onclick="window.location.href = 'bio_ez.html';">Biographie</button>
+			<button onclick="window.location.href = 'rec_ez.html';">Récompenses</button>
+			<button onclick="window.location.href = 'actu_ez.html';">Actualités</button>
+			<button onclick="window.location.href = 'app_ez.html';">À propos</button>
+			<br><br><br><br><a class="simp" href="recompenses.html"><img src="img/palette_yes.png" alt="affichage classique"></a>
 	</div>
-		<hr>
-		<h1 class="titres">Prix et Récompenses<h1>
+		<br><br><br><br><br><hr>
+		<h1 class="titres" style="font-family: Arial;font-size: 50px;text-align: center;">Prix et Récompenses<h1>
 		<hr><br>
 		<font size="+2">
 		<ul class="sources">
@@ -29,7 +64,7 @@
 			<li>Octobre 2018 - l'un des cinq lauréats du premier <a href="https://developer.oracle.com/groundbreakers/">Oracle Groundbreaker Awards</a> annuel.
 			<br><br><br>
 
-			<li>Avril 2019 - admis dans le <a href="https://computerhistory.org/hall-of-fellows/">Hall of Fellows</a> du Computer Museum.
+			<li>avril 2019 - admis dans le <a href="https://computerhistory.org/hall-of-fellows/">Hall of Fellows</a> du Computer Museum.
 			<br><br><br>
 
 			<li>Juin 2013 - Python remporte le <a href="https://www.commit-nl.nl/python#overlay-context=news/commit-award-2013-the-video-s">COMMIT/ Award</a>.
@@ -52,5 +87,6 @@
 		
 		</ul>
 		</font>
+		<br>
 	</body>
 </html>
